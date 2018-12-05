@@ -46,3 +46,23 @@ body {
 .container .header .rightPart .signinButton span {
     
 }
+
+.container .footer {
+    float: left;
+    width: 100%;
+}
+.container .footer p {
+    margin: 0;
+    text-align: center;
+    width: 72%;
+    margin-left: auto;
+    font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial sans-serif;
+    margin-right: auto;
+    color: #505050;   
+}
+.container .footer p a {
+    color: #505050;
+    padding-left: 2px;
+    padding-right: 2px;
+    cursor: pointer;    
+}
