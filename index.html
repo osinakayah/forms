@@ -2,8 +2,13 @@
 <html lang="en">
 <head>
     <script src="js/sa_script.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/sa_style.css">
+    <link rel="stylesheet" href="css/os_styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <meta charset="UTF-8">
     <title>Form</title>
 </head>
@@ -21,11 +26,54 @@
                 </div>
             </div>
         </div>
-        <div class="row sub-header">
 
-        </div>
         <div class="row content">
+            <section>
+                <div class="intuit-logo">
+                    <img src="./images/intuit-logo.png">
+                </div>
 
+                <div class="sign-in-form-container">
+                    <form action="#" method="POST">
+                        <fieldset class="sign-in-form">
+                            <p class="text">
+                                One Account.
+                                <br> Everything Intuit.
+                            </p>
+                            <br>
+                            <p class="account">Create an account for all of Intuit's products
+                                <br> including Mint. <a href="#" class="link-decoration">Learn more</a>
+                            </p>
+
+                            <label for="email">Email address</label>
+                            <input type="email" name="email" id="email">
+
+                            <label for="num">Phone (recommended)</label>
+                            <input type="number" name="phone-number" id="num">
+                            <br>
+                            <span class="standard-call">Standard call, messaging or data rates may apply.</span>
+
+                            <label for="pwd">Password</label>
+                            <div class="unlock-icon">
+                                <input type="password" name="password" id="pwd">
+                                <i class="fas fa-unlock"></i>
+                            </div>
+
+                            <button class="create-button" type="button">
+                                Create Account<i class="material-icons">lock</i>
+                            </button>
+
+                            <p class="license-agreement">
+                                By clicking Create Account, you agree to our
+                                <br>
+                                <a href="#" class="link-decoration">License Agreement</a> and have read and acknowledge
+                                <br> our <a href="#" class="link-decoration">Privacy Statement.</a>
+                            </p>
+                        </fieldset>
+                    </form>
+                </div>
+                <!-- end of sign-in-form-container -->
+            </section>
         </div>
         <div class="row footer">
 
