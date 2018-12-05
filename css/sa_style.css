@@ -50,6 +50,7 @@ body {
 .container .footer {
     float: left;
     width: 100%;
+    margin-bottom: 50px;
 }
 .container .footer p {
     margin: 0;
@@ -65,4 +66,60 @@ body {
     padding-left: 2px;
     padding-right: 2px;
     cursor: pointer;    
+}
+.subHeader {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+.subHeader .subRow {
+    float: left;
+    width: 100%;
+}
+.content {
+
+    float: left;
+    width: 100%;
+}
+.subHeader .logotip {
+    float: none;
+    width: 117px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.subHeader .logotip .logo {
+    background-image: url(../images/ecosystem_logos_new.png);
+    background-repeat: no-repeat;
+    background-position: 0px 10px;
+    width: 117px;
+    height: 50px;
+    cursor: pointer;
+    float: left;
+}
+.subHeader p {
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.subHeader p a {
+    background-image: url(../images/ecosystem_logos_new.png);
+    background-repeat: no-repeat;
+    height: 28px;
+    cursor: pointer;
+    float: left;  
+}
+.subHeader p span {
+
+}
+.subHeader p a.mint {
+    background-position: -253px -54px;
+    width: 70px;
+}
+.subHeader p a.quickbox {
+    background-position: -113px -54px;
+    width: 129px;
+}
+.subHeader p a.turbotax {
+    background-position: 2px -54px;
+    width: 105px;
 }
